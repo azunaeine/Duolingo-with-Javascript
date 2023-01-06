@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="119" viewBox="0 0 111 119">
+  <defs>
+    <filter id="Ellipse_13" x="0" y="0" width="111" height="119" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#d3d3d3" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-45 -362)">
+    <g transform="matrix(1, 0, 0, 1, 45, 362)" filter="url(#Ellipse_13)">
+      <circle id="Ellipse_13-2" data-name="Ellipse 13" cx="55.5" cy="55.5" r="55.5" fill="#f5f5f5"/>
+    </g>
+    <path id="Icon_awesome-book-open" data-name="Icon awesome-book-open" d="M39.763,2.254c-4.019.228-12.006,1.058-16.937,4.077a1.127,1.127,0,0,0-.533.966V33.98A1.161,1.161,0,0,0,24,34.97c5.073-2.554,12.41-3.25,16.038-3.441a2.287,2.287,0,0,0,2.2-2.248V4.505a2.3,2.3,0,0,0-2.477-2.251ZM19.414,6.33C14.484,3.312,6.5,2.482,2.477,2.254A2.3,2.3,0,0,0,0,4.505V29.281A2.286,2.286,0,0,0,2.2,31.53c3.629.191,10.97.888,16.043,3.443a1.157,1.157,0,0,0,1.7-.987V7.283A1.1,1.1,0,0,0,19.414,6.33Z" transform="translate(80 398.824)" fill="#d3d3d3"/>
+  </g>
+</svg>

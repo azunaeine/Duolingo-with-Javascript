@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: #78c93c;
+  width: 100%;
+}
+nav, .banner-one {
+  padding: 5px 10px;
+}
+.box-one h2, .mini h2{
+  float: left;
+}
+.box-one img, .mini img{
+  float: right;
+}
+nav h3{
+  clear: both;
+}
+
+.mix-circles {
+  height: 100vh;
+  display: relative;
+  text-align: center;
+}
+.circle {
+  border: 8px solid #e5e5e5;
+  border-radius: 5em;
+  height: 10em;
+  left: 2%;
+  position: relative;
+  width: 10em;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.mix {
+  height: 7em;
+}
+.mix-one {
+  height: 7em;
+  margin-top: 15px;
+}
+.mix-four{
+  position: absolute;
+  left: 40%;
+  top: 17em;
+}
+.two-unit {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.two-image{
+  position: absolute;
+  left: 30%; 
+   top: 24em;
+}
+
+.chest {
+  position: relative;
+  left: 8em;
+  bottom: 3em;
+}
+
+.owl {
+  width: 8em;
+  position: relative;
+  left: 10em;
+  top: 1em;
+}
+.mix1{
+  position: absolute;
+  top: 34em;
+  left: 39%;
+}
+.mix2{
+  position: absolute;
+  top: 42em;
+  left: 44%;
+} 
+
+.banner-one h3{
+  clear: both;
+}
+
+h2,
+h3 {
+  color: #ffffff;
+}
+
+.banner-one {
+  background: #c385f8;
+  width: 100%;
+}
+
+
+.intro {
+  position: relative;
+  bottom: 1em;
+}
+
+.headline {
+  position: relative;
+  bottom: 1em;
+  margin-left: 4px;
+} 
+
+.icon {
+  display: flex;
+  gap: 1em;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-unit {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.space {
+  margin-left: 5px;
+}
+
+.three-things {
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+.bar{
+  width: 60%;
+  height: 50px;
+  padding: 10px 0px;
+  border: 5px groove lightgray;
+}
+.bar img{
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+}
+.back, .query{
+  width: 20%;
+  height: 50px;
+}
+.boy {
+  width: 85%;
+  display: block;
+  margin: 100px auto 50px;
+}
+.mini-boxes {
+  display: flex; 
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+}
+.white {
+  width: 45%;;
+  height: 5em;
+  background: white;
+  margin-left: 2em;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 30%);
+  text-align: center;
+  padding-top: 30px;
+}
+h4 {
+  font-weight: lighter;
+}
+
+button {
+  margin: auto;
+  display: block;
+  margin-top: 10em;
+}
+.query, .first, .second, .button, .back-btn, .four-x img{
+  cursor: pointer;
+}
+
+.button {
+  background: #78c93c;
+  border: none;
+  color: white;
+  width: 10em;
+  height: 56px;
+  margin-top: 12em;
+  width: 40%;
+  margin-bottom: 5em;
+}
+.content{
+  height: 80vh;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 1em;
+}
+.hand {
+  width: 90%;
+  gap: 2em;
+  margin: 30px auto;
+}
+.hand img{
+  width: 30%;
+}
+.x{
+  padding: 20px;
+}
+.gesture {
+  width: 7em;
+  height: 16em;
+}
+.hint {
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.check {
+  display: block;
+  margin: auto;
+}
+.mark{
+  width: 90%;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 30%);
+  margin: 10px auto;
+}
+.mark img{
+  width: 100%;
+  height: 400px;
+}
+.correct{
+  text-align: center;
+  margin-top: 100px;
+}
+.four-x{
+  padding-left: 70px;
+}
+.wrong {
+  border: 1px solid red;
+}
+.right{
+  border: 1px solid green;
+}
+
+@media screen and (max-width: 1250px){
+  .two-image{
+    position: absolute;
+    left: 25%; 
+     top: 24em;
+  }
+}
+
+@media screen and (max-width: 860px){
+  .two-image{
+    position: absolute;
+    left: 20%; 
+     top: 24em;
+  }
+  .circle{
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 690px){
+  .two-image{
+    position: absolute;
+    left: 15%; 
+     top: 24em;
+  }
+}
+
+@media screen and (max-width: 552px){
+  .two-image{
+    position: absolute;
+    left: 6%; 
+     top: 24em;
+  }
+  .circle{
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 470px){
+  .two-image{
+    position: absolute;
+    left: 0; 
+     top: 24em;
+  }
+}
+
+@media screen and (max-width: 480px){
+  footer{
+    justify-content: none;
+    gap: 0;
+    padding: 0;
+  }
+  footer img{
+    width:60px;
+  }
+}

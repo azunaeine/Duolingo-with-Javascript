@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="119" viewBox="0 0 111 119">
+  <defs>
+    <filter id="Ellipse_12" x="0" y="0" width="111" height="119" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#d3d3d3" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(-120 -168)">
+    <g transform="matrix(1, 0, 0, 1, 120, 168)" filter="url(#Ellipse_12)">
+      <circle id="Ellipse_12-2" data-name="Ellipse 12" cx="55.5" cy="55.5" r="55.5" fill="#f5f5f5"/>
+    </g>
+    <path id="Icon_awesome-lock" data-name="Icon awesome-lock" d="M27.55,15.428H25.9V10.469a10.469,10.469,0,0,0-20.938,0v4.959H3.306A3.307,3.307,0,0,0,0,18.734V31.958a3.307,3.307,0,0,0,3.306,3.306H27.55a3.307,3.307,0,0,0,3.306-3.306V18.734A3.307,3.307,0,0,0,27.55,15.428Zm-7.163,0H10.469V10.469a4.959,4.959,0,1,1,9.918,0Z" transform="translate(160.144 205.868)" fill="#d3d3d3"/>
+  </g>
+</svg>

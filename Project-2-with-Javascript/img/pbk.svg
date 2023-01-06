@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="65" viewBox="0 0 68 65">
+  <defs>
+    <filter id="Rectangle_3" x="0" y="0" width="68" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_23" data-name="Group 23" transform="translate(-313 -682)">
+    <g id="Group_22" data-name="Group 22">
+      <g transform="matrix(1, 0, 0, 1, 313, 682)" filter="url(#Rectangle_3)">
+        <rect id="Rectangle_3-2" data-name="Rectangle 3" width="50" height="47" rx="8" transform="translate(9 6)" fill="#c385f8"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-book" data-name="Icon awesome-book" d="M31.5,25.313V1.688A1.683,1.683,0,0,0,29.813,0H6.75A6.752,6.752,0,0,0,0,6.75v22.5A6.752,6.752,0,0,0,6.75,36H29.813A1.683,1.683,0,0,0,31.5,34.313V33.188a1.7,1.7,0,0,0-.626-1.315,15.68,15.68,0,0,1,0-5.252A1.676,1.676,0,0,0,31.5,25.313ZM9,9.422A.423.423,0,0,1,9.422,9H24.328a.423.423,0,0,1,.422.422v1.406a.423.423,0,0,1-.422.422H9.422A.423.423,0,0,1,9,10.828Zm0,4.5a.423.423,0,0,1,.422-.422H24.328a.423.423,0,0,1,.422.422v1.406a.423.423,0,0,1-.422.422H9.422A.423.423,0,0,1,9,15.328ZM26.817,31.5H6.75a2.25,2.25,0,0,1,0-4.5H26.817A25.313,25.313,0,0,0,26.817,31.5Z" transform="translate(331.25 693.5)" fill="#fff"/>
+  </g>
+</svg>

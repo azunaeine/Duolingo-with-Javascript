@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="119" viewBox="0 0 111 119">
+  <defs>
+    <filter id="Ellipse_14" x="0" y="0" width="111" height="119" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#d3d3d3" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-120 -454)">
+    <g transform="matrix(1, 0, 0, 1, 120, 454)" filter="url(#Ellipse_14)">
+      <circle id="Ellipse_14-2" data-name="Ellipse 14" cx="55.5" cy="55.5" r="55.5" fill="#f5f5f5"/>
+    </g>
+    <path id="Icon_awesome-trophy" data-name="Icon awesome-trophy" d="M39.777,4.612H32.283V1.729A1.725,1.725,0,0,0,30.554,0h-19.6A1.725,1.725,0,0,0,9.224,1.729V4.612H1.729A1.725,1.725,0,0,0,0,6.341v4.035c0,2.573,1.621,5.217,4.461,7.256a16.882,16.882,0,0,0,7.927,3,15.94,15.94,0,0,0,4.907,5.3V31.13H13.836c-2.544,0-4.612,1.492-4.612,4.035v.865a.867.867,0,0,0,.865.865h21.33a.867.867,0,0,0,.865-.865v-.865c0-2.544-2.068-4.035-4.612-4.035H24.212V25.942a15.94,15.94,0,0,0,4.907-5.3,16.824,16.824,0,0,0,7.927-3c2.832-2.039,4.461-4.684,4.461-7.256V6.341A1.725,1.725,0,0,0,39.777,4.612ZM7.156,13.893C5.4,12.625,4.612,11.213,4.612,10.377V9.224H9.238a25.882,25.882,0,0,0,.922,6.212A11.613,11.613,0,0,1,7.156,13.893Zm29.739-3.517c0,1.16-1.275,2.6-2.544,3.517a11.658,11.658,0,0,1-3.012,1.542,25.881,25.881,0,0,0,.922-6.212h4.633Z" transform="translate(152.741 491.238)" fill="#d3d3d3"/>
+  </g>
+</svg>
